@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Growtask</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="icon" href="./img/icons/iconSmall.png" type="image/x-icon">
+	<link rel="icon" href="./img/icons/iconMedium.png" type="image/x-icon">
+	<link rel="icon" href="./img/icons/iconLarge.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+
+<body class="page">
+	<header class="header">
+		<div class="header__content">
+			<a data-goto=".hero" href="#start" class="header__logo link-id">
+				<img class="header__icon" src="./img/Logo/Logotype_Desktop.png" alt="Logotype">
+				<img class="header__icon-small" src="./img/Logo/Logotype_mobile.png" alt="Logotype-mob">
+				<span data-goto=".hero" class="header__logo-text link-id">Наверх</span>
+			</a>
+			<div class="header__menu menu ">
+				<span class="header__burger" type="button" aria-label="Открыть/Закрыть">
+					<img src="./img/Logo/Icon_Burger.svg" alt="Burger">
+				</span>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li><a data-goto=".vacancy" href="#" class="menu__link link-id">Текст и картинки</a></li>
+						<li><a data-goto=".slider" href="#" class="menu__link link-id">Пример слайдера</a></li>
+						<li><a data-goto=".presentation" href="#" class="menu__link link-id">Кнопки и картинки</a></li>
+						<li><a data-goto=".faq" href="#" class="menu__link link-id">Вопрос — ответ</a></li>
+						<button data-goto=".footer" class="header__btn btn link-id" id="">К форме</button>
+						<div class="social-burger">
+							<a class="social__link" target="_blank" href="https://vk.com/zeptorqy1ad">
+								<img src="./img/Footer/VK.svg" alt="VK">
+							</a>
+							<a class="social__link" target="_blank" href="https://t.me/Zeptorqyiad">
+								<img src="./img/Footer/Tg.svg" alt="Telegram">
+							</a>
+						</div>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="hero">
+			<div class="hero__container ">
+				<div class="hero__leftside lside">
+					<div class="lside__content">
+						<div class="lside__block-text block-text">
+							<h1 class="block-text__title">
+								Покажи нам чудеса <span>своей вёрстки</span>
+							</h1>
+							<div class="block-text__text">
+								Это текстовое задание, которое нужно просто и грамотно сверстать.
+								Мы уверены, что у тебя всё получится.
+							</div>
+							<div class="block-form">
+								<p class="block-form-text">
+									Покажи скролл <span>до формы:</span>
+								</p>
+								<button data-goto=".footer" class="header__btn btn link-id" href="#">
+									К форме
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero__rightside rside">
+					<div class="rside__wrapper">
+						<img class="hero__image" src="./img/hero/01.png" alt="first pic">
+						<img class="hero__image" src="./img/hero/02.png" alt="second pic">
+					</div>
+					<img class="hero__image" src="./img/hero/03.png" alt="third pic">
+				</div>
+			</div>
+		</section>
+		<section class="vacancy">
+			<div class="vacancy__container">
+				<div class="vacancy__info info">
+					<h2 class="info__title">Про вакансию</h2>
+					<p class="info-text">
+						Мы ищем аккуратного верстальщика, который хочет учиться и развиваться.
+						С этим мы, конечно же, поможем.
+					</p>
+					<p class="info-text">
+						Напомним про условия:
+					</p>
+					<ul class="info__forms">
+						<li class="form__info">
+							<p>20000</p>
+							<p>Твой оклад на время стажировки (Возможны премии)</p>
+						</li>
+						<div class="form__info">
+							<p>5/2</p>
+							<p>Рабочий график</p>
+						</div>
+						<div class="form__info">
+							<p>8 ч</p>
+							<p>Рабочий день</p>
+						</div>
+					</ul>
+				</div>
+				<div class="vacancy__photo">
+					<img class="photo-vac" src="./img/vacancy/01.png" alt="photo">
+					<img class="photo-vac" src="./img/vacancy/02.png" alt="photo">
+					<img class="photo-vac" src="./img/vacancy/03.png" alt="photo">
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="slider__container">
+				<div class="slider__heading">
+					<h2 class="slider__title">Сверстай слайдер</h2>
+					<div class="slider__button-content">
+						<button class="slider__button prev-btn">
+							<img src="./img/Slider/Btn.svg" alt="prevBtn">
+						</button>
+						<button class="slider__button next-Btn">
+							<img src="./img/Slider/Btn.svg" alt="nextBtn">
+						</button>
+					</div>
+				</div>
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img id="image-slider" class="slider__card-image" src="./img/Slider/01.png" alt="Северная корона">
+							<figcaption class="card__text">Северная корона</figcaption>
+						</div>
+						<div class="swiper-slide">
+							<img id="image-slider" class="slider__card-image" src="./img/Slider/02.png"
+								alt="Moscow barbering school">
+							<figcaption class="card__text">Moscow barbering school</figcaption>
+						</div>
+						<div class="swiper-slide">
+							<img id="image-slider" class="slider__card-image" src="./img/Slider/03.png" alt="Rh store">
+							<figcaption class="card__text">Rh store</figcaption>
+						</div>
+						<div class="swiper-slide">
+							<img id="image-slider" class="slider__card-image" src="./img/Slider/04.png" alt="Poolspecial">
+							<figcaption class="card__text">Poolspecial</figcaption>
+						</div>
+						<div class="swiper-slide">
+							<img id="image-slider" class="slider__card-image" src="./img/Slider/05.png" alt="Rh prod">
+							<figcaption class="card__text">Rh prod</figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="presentation">
+			<div class="presentation__container">
+				<picture class="presentation__image">
+					<img id="image" class="presentation-image" type="png" src="./img/Presentation/01.png" alt="Big picture">
+				</picture>
+				<div class="presentation__radiocheck">
+					<label class="presentation__btn" data-image-url="./img/Presentation/01.png">
+						<input type="checkbox" id="imageCheckbox" class="radio-presentation" checked>
+						<img class="radio-min-image" src="./img/Presentation/01.png" loading="lazy" alt="1 Pic">
+						Картинка 1
+					</label>
+					<label class="presentation__btn" data-image-url="./img/Presentation/02.png">
+						<input type="checkbox" id="imageCheckbox2" class="radio-presentation">
+						<img class="radio-min-image" src="./img/Presentation/02.png" loading="lazy" alt="2 Pic">
+						Картинка 2
+					</label>
+					<label class="presentation__btn" data-image-url="./img/Presentation/03.png">
+						<input type="checkbox" id="imageCheckbox3" class="radio-presentation">
+						<img class="radio-min-image" src="./img/Presentation/03.png" loading="lazy" alt="3 Pic">
+						Картинка 3
+					</label>
+				</div>
+			</div>
+		</section>
+		<section class="faq">
+			<div class="faq__container">
+				<h2 class="faq__heading">Ответы на вопросы</h2>
+				<ul class="faq__list">
+					<li class="faq__item item-1">
+						<div class="faq__wrapper">
+							<h3 class="wrapper__title-faq">У вас много проектов?</h3>
+							<button class="faq__btn">
+								<img id="rotateButton" src="./img/Slider/faq_close_open_tab.svg" alt="Open-close-tab">
+							</button>
+						</div>
+						<div class="faq__wrapper-answer">
+							<p class="answear__faq-1">
+								Не нашел ответ в макете
+							</p>
+						</div>
+					</li>
+					<li class="faq__item item-2">
+						<div class="faq__wrapper">
+							<h3 class="wrapper__title-faq">Есть ли карьерный рост?</h3>
+							<button class="faq__btn">
+								<img id="rotateButton2" src="./img/Slider/faq_close_open_tab.svg" alt="Open-close-tab">
+							</button>
+						</div>
+						<div class="faq__wrapper-answer">
+							<p class="answear__faq-2">
+								Не нашел ответ в макете
+							</p>
+						</div>
+					</li>
+					<li class="faq__item item-3">
+						<div class="faq__wrapper">
+							<h3 class="wrapper__title-faq">У вас большой штат?</h3>
+							<button class="faq__btn">
+								<img id="rotateButton3" class="svg-icon" src="./img/Slider/faq_close_open_tab.svg"
+									alt="Open-close-tab">
+							</button>
+						</div>
+						<div class="faq__wrapper-answer">
+							<p class="answear__faq-3">
+								Не нашел ответ в макете
+							</p>
+						</div>
+					</li>
+					<li class="faq__item item-4">
+						<div class="faq__wrapper">
+							<h3 class="wrapper__title-faq">Какие цели у вашей студии?</h3>
+							<button class="faq__btn">
+								<img id="rotateButton4" src="./img/Slider/faq_close_open_tab.svg" alt="Open-close-tab">
+							</button>
+						</div>
+						<div class="faq__wrapper-answer">
+							<p class="answear__faq-4">
+								Не нашел ответ в макете
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__callback">
+				<div class="footer__title">Форма ОС</div>
+				<div class="footer__text">
+					Сверстай форму обратной связи.
+					Будет круто, если заявка будут приходить сюда:
+					a@growtask.ru
+				</div>
+				<p>Не забудь вставить соц.сети</p>
+				<div class="footer__social">
+					<a class="social__link" target="_blank" href="https://vk.com/zeptorqy1ad">
+						<img src="./img/Footer/VK.svg" alt="VK">
+					</a>
+					<a class="social__link" target="_blank" href="https://t.me/Zeptorqyiad">
+						<img src="./img/Footer/Tg.svg" alt="Telegram">
+					</a>
+				</div>
+			</div>
+			<form action="https://formsubmit.co/a@growtask.ru" method="POST" class="footer__form form">
+				<div class="form__row-input">
+					<label for="message" class="form__label">Напиши вопрос</label>
+					<input type="text" id="message" placeholder="Напиши вопрос*" minlength="8" class="form__input" required>
+					<label for="email" class="form__label">Телефон и почта</label>
+					<input type="email" id="email" name="email" placeholder="Телефон и почта*" maxlength="64"
+						class="form__input" required>
+				</div>
+				<div class="form__row-input">
+					<label for="message" class="form__label">Твоё имя</label>
+					<input type="text" id="message" placeholder="Твоё имя*" minlength="4" class="form__input" required>
+					<label for="email" class="form__label">Соц.сеть или мессенджер</label>
+					<input type="email" id="email" name="email" placeholder="Соц.сеть или мессенджер" maxlength="64"
+						class="form__input">
+				</div>
+				<div class="form__row-btn">
+					<button class="form__btn" type="submit" aria-label="Отправить заявку">Отправить заявку</button>
+					<label for="approval" class="label__checkbox">
+						<input type="checkbox" id="approval" name="approval" class="form__checkbox" required>
+						<span class="checkbox-icon"></span>
+						<span>Согласие с политикой</span>
+					</label>
+				</div>
+			</form>
+			<div class="footer__social-mob">
+				<p>Не забудь вставить соц.сети</p>
+				<div class="social__link-mob">
+					<a class="social__link" target="_blank" href="https://vk.com/zeptorqy1ad">
+						<img src="./img/Footer/VK.svg" alt="VK">
+					</a>
+					<a class="social__link" target="_blank" href="https://t.me/Zeptorqyiad">
+						<img src="./img/Footer/Tg.svg" alt="Telegram">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Подключение Swiper -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- Подключаем файл JS скриптов -->
+	<script src="./js/swiper.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="./js/main.js"></script>
+	<!-- <script src="./js/cursor.js"></script> -->
+	<!-- Подключаем Иконочные Шрифты Font Awesome -->
+	<!-- <script src="https://kit.fontawesome.com/24557c14e9.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
